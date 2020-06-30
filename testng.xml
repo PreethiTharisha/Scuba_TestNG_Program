@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="methods"  verbose="1">  
+  <test  name="Test1">
+  <parameter name="inverse" value="5"/>
+   <parameter name="negate" value="-1"/> 
+  <groups>  
+  <run>  
+	 <include name="include_Addgrouping"/>  
+	<include name="include_Subgrouping"/>  
+	<include name="include_Mulgrouping"/>  
+	<include name="inlude_Divgrouping"/>  
+	<include name="include_Modgrouping"/>  
+	<include name="include_Inversegrouping"/> 
+	<include name="include_Negategrouping"/>
+
+<exclude name="exclude_divRealgrouping"/>  
+<exclude name="exclude_Expgrouping"/>  
+
+</run>  
+</groups>
+ 
+  <classes>
+  <class name="calculator.cal.Calculator">
+    <methods>
+       <include name="calculator.cal.Calculator.inverse"/>
+       <include name="calculator.cal.Calculator.negate"/>
+     </methods>
+     
+  </class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

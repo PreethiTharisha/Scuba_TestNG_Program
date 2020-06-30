@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Add]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> divInt]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> divReal]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Exp ]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Inverse]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Mod]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> mul]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> negate]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Sub]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="193" started-at="2020-06-30T20:28:58 IST" finished-at="2020-06-30T20:28:58 IST">
+    <groups>
+      <group name="include_Modgrouping">
+        <method signature="CalculatorTest.mod(int, int)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="mod" class="calculator.cal.CalculatorTest"/>
+      </group> <!-- include_Modgrouping -->
+      <group name="include_Addgrouping">
+        <method signature="CalculatorTest.add(int, int)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="add" class="calculator.cal.CalculatorTest"/>
+      </group> <!-- include_Addgrouping -->
+      <group name="include_Inversegrouping">
+        <method signature="CalculatorTest.inverse(java.lang.String)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="inverse" class="calculator.cal.CalculatorTest"/>
+      </group> <!-- include_Inversegrouping -->
+      <group name="exclude_Expgrouping">
+        <method signature="CalculatorTest.exp(double, double)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="exp" class="calculator.cal.CalculatorTest"/>
+      </group> <!-- exclude_Expgrouping -->
+      <group name="include_Subgrouping">
+        <method signature="CalculatorTest.sub(int, int)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="sub" class="calculator.cal.CalculatorTest"/>
+      </group> <!-- include_Subgrouping -->
+      <group name="exclude_divRealgrouping">
+        <method signature="CalculatorTest.divReal(int, int)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="divReal" class="calculator.cal.CalculatorTest"/>
+      </group> <!-- exclude_divRealgrouping -->
+      <group name="inlude_Divgrouping">
+        <method signature="CalculatorTest.divInt(int, int)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="divInt" class="calculator.cal.CalculatorTest"/>
+      </group> <!-- inlude_Divgrouping -->
+      <group name="include_Negategrouping">
+        <method signature="CalculatorTest.negate(java.lang.String)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="negate" class="calculator.cal.CalculatorTest"/>
+      </group> <!-- include_Negategrouping -->
+      <group name="include_Mulgrouping">
+        <method signature="CalculatorTest.mul(int, int)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="mul" class="calculator.cal.CalculatorTest"/>
+      </group> <!-- include_Mulgrouping -->
+    </groups>
+    <test name="Default test" duration-ms="193" started-at="2020-06-30T20:28:58 IST" finished-at="2020-06-30T20:28:58 IST">
+      <class name="calculator.cal.CalculatorTest">
+        <test-method status="PASS" signature="add(int, int)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="add" duration-ms="15" started-at="2020-06-30T20:28:58 IST" data-provider="inputs" finished-at="2020-06-30T20:28:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Add]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="divInt(int, int)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="divInt" duration-ms="4" started-at="2020-06-30T20:28:58 IST" data-provider="inputs" finished-at="2020-06-30T20:28:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> divInt]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- divInt -->
+        <test-method status="PASS" signature="divReal(int, int)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="divReal" duration-ms="5" started-at="2020-06-30T20:28:58 IST" data-provider="realNumbers" finished-at="2020-06-30T20:28:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> divReal]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- divReal -->
+        <test-method status="PASS" signature="exp(double, double)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="exp" duration-ms="3" started-at="2020-06-30T20:28:58 IST" data-provider="realNumbers" finished-at="2020-06-30T20:28:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Exp ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="inverse(java.lang.String)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="inverse" duration-ms="5" started-at="2020-06-30T20:28:58 IST" finished-at="2020-06-30T20:28:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Inverse]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- inverse -->
+        <test-method status="PASS" signature="mod(int, int)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="mod" duration-ms="8" started-at="2020-06-30T20:28:58 IST" data-provider="inputs" finished-at="2020-06-30T20:28:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Mod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mod -->
+        <test-method status="PASS" signature="mul(int, int)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="mul" duration-ms="2" started-at="2020-06-30T20:28:58 IST" data-provider="inputs" finished-at="2020-06-30T20:28:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> mul]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="negate(java.lang.String)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="negate" duration-ms="4" started-at="2020-06-30T20:28:58 IST" finished-at="2020-06-30T20:28:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> negate]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negate -->
+        <test-method status="PASS" signature="sub(int, int)[pri:0, instance:calculator.cal.CalculatorTest@7b49cea0]" name="sub" duration-ms="3" started-at="2020-06-30T20:28:58 IST" data-provider="inputs" finished-at="2020-06-30T20:28:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Sub]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sub -->
+      </class> <!-- calculator.cal.CalculatorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
